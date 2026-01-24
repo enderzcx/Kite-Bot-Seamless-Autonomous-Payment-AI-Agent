@@ -1,5 +1,3 @@
-<img width="1408" height="768" alt="7ec32284825729fae082c60786982a2" src="https://github.com/user-attachments/assets/50e99f92-73f3-438a-ab92-8ee39f0a3e15" />
-
 # SPARK AI Hackathon
 
 <!-- [English](/docs/README_EN-US.md) | [简体中文](/docs/README_ZH-CN.md) -->
