@@ -17,18 +17,35 @@ const submissionsPath = process.env.SUBMISSIONS_PATH;
 // Matches **Key:** ...value... until the next **Key:** or End of String
 function extractValue(body, keyRegex) {
   if (!body) return '';
-  // Construct a regex that finds the key, then captures everything until the next double asterisk or end of string
-  // We use the source of the keyRegex effectively
-  const keySource = keyRegex.source;
-  // This regex matches:
-  // 1. The key pattern
-  // 2. \s* matches optional whitespace/newlines
-  // 3. ([\s\S]*?) matches ANY character (including newlines) non-greedily
-  // 4. (?=\*\*|$) lookahead for next bold section or end of string
-  const regex = new RegExp(keySource + '\\s*([\\s\\S]*?)(?=\\*\\*|$)', 'i');
 
-  const match = body.match(regex);
-  return match ? match[1].trim() : '';
+  // Find the start of the key
+  const match = body.match(keyRegex);
+  if (!match) return '';
+
+  // Start extracting after the matched key
+  const startIndex = match.index + match[0].length;
+  let remaining = body.substring(startIndex);
+
+  // If the key was wrapped in bold (e.g. **Key:**), the trailing ** might be here.
+  // Remove it if present.
+  if (remaining.startsWith('**')) {
+    remaining = remaining.substring(2);
+  }
+
+  // Find the start of the next key to determine where the current value ends.
+  // We assume the next key starts on a new line with **, and contains a colon.
+  // This is a common pattern in the provided templates.
+  const nextKeyRegex = /\r?\n\s*\*\*.*(:|：)/;
+  const nextMatch = remaining.match(nextKeyRegex);
+
+  let value = '';
+  if (nextMatch) {
+    value = remaining.substring(0, nextMatch.index);
+  } else {
+    value = remaining;
+  }
+
+  return value.trim();
 }
 
 /**
@@ -149,7 +166,7 @@ try {
     const registrations = JSON.parse(fs.readFileSync(registrationsPath, 'utf8'));
     console.log(`Found ${registrations.length} registrations.`);
     const regTable = generateRegistrationTable(registrations);
-    readmeContent = replaceSection(readmeContent, '<!-- Registration star -->', '<!-- Registration end -->', regTable);
+    readmeContent = replaceSection(readmeContent, '<!-- Registration start -->', '<!-- Registration end -->', regTable);
   } else {
     console.log('No registrations file found, skipping registration update.');
   }
@@ -159,7 +176,7 @@ try {
     const submissions = JSON.parse(fs.readFileSync(submissionsPath, 'utf8'));
     console.log(`Found ${submissions.length} submissions.`);
     const subTable = generateSubmissionTable(submissions);
-    readmeContent = replaceSection(readmeContent, '<!-- Submission star -->', '<!-- Submission end -->', subTable);
+    readmeContent = replaceSection(readmeContent, '<!-- Submission start -->', '<!-- Submission end -->', subTable);
   } else {
     console.log('No submissions file found, skipping submission update.');
   }
