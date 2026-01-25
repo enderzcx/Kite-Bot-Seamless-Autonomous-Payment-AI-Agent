@@ -1,8 +1,14 @@
 name: Update README on Issue Change
+
+# Trigger the workflow on any relevant issue event
+# This ensures the README stays in sync whether an issue is created, edited, or deleted.
 on:
   issues:
     types: [opened, edited, deleted, reopened, labeled, unlabeled]
 
+# Permissions required for this workflow
+# - contents: write (to push changes to README.md)
+# - issues: read (to fetch issue details via gh CLI)
 permissions:
   contents: write
   issues: read
@@ -14,12 +20,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      # Fetch all open issues labeled 'registration' and save to JSON
+      # limiting to 1000 to avoid performance issues but cover likely hackathon size
       - name: Fetch Registration Issues
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh issue list --label "registration" --state open --json number,title,body,user,html_url,created_at --limit 1000 > registrations.json
 
+      # Fetch all open issues labeled 'submission' and save to JSON
       - name: Fetch Submission Issues
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -31,6 +40,7 @@ jobs:
         with:
           node-version: '16'
 
+      # Run the custom Node.js script to parse JSONs and update README content
       - name: Run Update Script
         run: node .github/scripts/update_readme.js
         env:
@@ -38,6 +48,8 @@ jobs:
           REGISTRATIONS_PATH: ./registrations.json
           SUBMISSIONS_PATH: ./submissions.json
 
+      # Commit and push changes if README.md was modified
+      # 'git diff --staged --quiet' returns exit code 0 if no changes, 1 if changes exist
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
