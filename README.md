@@ -39,6 +39,7 @@
 | **🏁 Demo Day (路演)** | 2月1日 20:00-22:00 | 📍 Zoom | [Zoom 链接] |
 | **🏆 获奖公示 (Awards)** | **2月4日** | 📍 社区公告 | - |
 
+**赛事交流群：**
 <p align="center">
     <img src="./materials/images/QR code.png" alt="QR Code" width="200" />
   </p>
