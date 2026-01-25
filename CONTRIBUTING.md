@@ -39,7 +39,7 @@
 注意：如果你使用了多个赛道的技术（例如用 SpoonOS 写了一个带 Kite 支付功能的 Agent），为方便颁奖评分写其中一个赛道即可。不建议混合赛道。
 ```
 
-## **4、报名列表（Registration List）**
+## **04 | 报名列表（Registration List）**
 
 | **姓名** | **GitHub ID** | **联系方式** | **组队意愿** | **备注** | **更新资料** |
 | --- | --- | --- | --- | --- | --- |
@@ -47,7 +47,7 @@
 | 测试 | beetroot42 | 测试 | 测试 | 测试 | [更新](https://github.com/CasualHackathon/agenthack/issues/new?title=Registration%20-%20%E6%B5%8B%E8%AF%95&body=Name%20%5B%E5%A7%93%E5%90%8D%5D%3A%20%E6%B5%8B%E8%AF%95%0AContactMethod%20%5B%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F%5D%3A%20%E6%B5%8B%E8%AF%95%0AWantsTeam%20%5B%E7%BB%84%E9%98%9F%E6%84%8F%E6%84%BF%5D%3A%20%E6%B5%8B%E8%AF%95%0AComment%20%5B%E5%A4%87%E6%B3%A8%5D%3A%20%E6%B5%8B%E8%AF%95) |
 | 测试 | lejusuelge-star | 测试 | 测啊 | 测试 | [更新](https://github.com/CasualHackathon/agenthack/issues/new?title=Registration%20-%20%E6%B5%8B%E8%AF%95&body=Name%20%5B%E5%A7%93%E5%90%8D%5D%3A%20%E6%B5%8B%E8%AF%95%0AContactMethod%20%5B%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F%5D%3A%20%E6%B5%8B%E8%AF%95%0AWantsTeam%20%5B%E7%BB%84%E9%98%9F%E6%84%8F%E6%84%BF%5D%3A%20%E6%B5%8B%E5%95%8A%0AComment%20%5B%E5%A4%87%E6%B3%A8%5D%3A%20%E6%B5%8B%E8%AF%95) |
 
-## **5、项目提交名单（Submission List）**
+## **05 | 项目提交名单（Submission List）**
 
 | **项目名称** | **GitHub ID** | **项目描述** | **项目链接** | **提交时间** |
 | --- | --- | --- | --- | --- |
