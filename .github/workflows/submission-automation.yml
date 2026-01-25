@@ -68,7 +68,7 @@ jobs:
                 owner,
                 repo,
                 issue_number,
-                body: `✅ Submission processed successfully! ${context.payload.action === 'opened' ? '(Auto)' : '(Manual)'}`
+                body: `✅ Submission processed successfully! ${context.payload.action === 'opened' ? '(Auto)' : '(Manual)'}\nView the list: https://github.com/CasualHackathon/SPARK-AI-Hackathon/blob/main/docs/REGISTRATION.md`
               });
               
               // 只有在自动触发时才关闭 issue
