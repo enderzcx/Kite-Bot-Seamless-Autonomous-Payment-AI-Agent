@@ -115,7 +115,7 @@
 - FAQ：环境安装与模型调用报错排查手册
 - Workshop 回放：Rick 老师 SpoonOS 实战教学
 
-### **3.** OGBC × ScalingX - **预测市场 (Prediction Market Track)**
+### **3.**  [**OGBC**](https://x.com/ogbcgroup) × [**ScalingX**](https://x.com/Scaling_X) - **预测市场 (Prediction Market Track)**
 
 **🎯 核心目标：设计具备可扩展性的预测市场架构，融合激励机制与数据输入方案，重点考察机制设计与链上合约逻辑的协同。** 
 
