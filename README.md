@@ -120,18 +120,32 @@
 - 项目将按照提交顺序进行展示
 - Zoom 链接：[ZOOM_LINK]
 
-  ### ✅ 提交时的强制要求
-在你的提交描述（PR Description）或项目的 `README` 中，**必须明确备注**以下两点，否则可能影响评审：
+ 我们使用 GitHub Flow 进行作品提交。请严格遵守以下步骤：
 
-1.  **使用技术栈 (Tech Stack)**: 例如 SpoonOS, Kite AI SDK, Python, Solidity 等。
-2.  **选择的赛道方向 (Track)**: 例如 "LLM 应用赛道 - 信息抓取 Agent"。
+### 1. 准备代码
+确保你的项目包含一个清晰的 `README.md`，介绍你的项目功能和运行方式。
 
-### 提交结构示例
+### 2. Fork & Clone
+Fork 本仓库到你的个人 GitHub，并 Clone 到本地。
+
+### 3. 创建目录
+在 `submissions` 目录下创建一个以你的**项目名称**命名的文件夹。
+`submissions/你的项目名/`
+
+### 4. 提交 PR (Pull Request)
+将你的代码提交到该文件夹，并向本仓库发起 PR。
+
+### 🚨 重要：PR 填写规范 (评审关键)
+在提交 Pull Request 时，**必须**在描述框中备注以下信息，否则评委可能无法正确归类你的项目：
+
 ```text
-Project Name: My Super Agent
-Track: LLM 应用赛道
-Tech Stack: SpoonOS, OpenAI API
-Description: 这是一个可以自动抓取推特并生成周报的 Agent...
+------ 提交信息模板 ------
+1. 项目名称: [你的项目名]
+2. 参赛赛道: [例如: LLM 应用赛道 (SpoonOS)]
+3. 技术栈清单: [例如: SpoonOS, Python, OpenAI API, Kite SDK]
+4. 项目简介: [一句话介绍你的项目做什么]
+5. Demo 链接/视频: [如果有，请提供]
+
 ```
 
 ## 05 | 评委阵容
