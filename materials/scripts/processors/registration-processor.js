@@ -106,10 +106,10 @@ class RegistrationProcessor {
 
         return `# ${githubUser}
 
-**${FIELD_NAMES.REGISTRATION.NAME}**: ${name}  
-**${FIELD_NAMES.REGISTRATION.CONTACT_METHOD}**: ${contactMethod}  
-**${FIELD_NAMES.REGISTRATION.WANTS_TEAM}**: ${WantsTeam}
-**${FIELD_NAMES.REGISTRATION.COMMENT}**: ${comment}  
+${FIELD_NAMES.REGISTRATION.NAME}: ${name}
+${FIELD_NAMES.REGISTRATION.CONTACT_METHOD}: ${contactMethod}
+${FIELD_NAMES.REGISTRATION.WANTS_TEAM}: ${WantsTeam}
+${FIELD_NAMES.REGISTRATION.COMMENT}: ${comment}
 `;
     }
 

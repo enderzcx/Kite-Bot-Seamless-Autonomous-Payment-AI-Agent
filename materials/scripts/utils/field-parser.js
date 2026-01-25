@@ -17,8 +17,11 @@ function parseIssueFields(bodyString) {
     for (let i = 0; i < lines.length; i++) {
         const line = lines[i];
 
-        // 检查是否是新字段（以 ** 开头且包含冒号）
-        const isFieldLine = line.startsWith('**') && (line.includes(':') || line.includes('：'));
+        // 字段行必须包含中文方括号 [ ] 和冒号
+        const hasChineseBracket = line.includes('[') && line.includes(']');
+        const hasColon = line.includes(':') || line.includes('：');
+        const isPromptLine = line.startsWith('_') || line.startsWith('---');
+        const isFieldLine = hasChineseBracket && hasColon && !isPromptLine;
 
         if (isFieldLine) {
             // 保存之前的字段
@@ -28,17 +31,13 @@ function parseIssueFields(bodyString) {
 
             // 解析新字段
             const colonIndex = line.indexOf(':') !== -1 ? line.indexOf(':') : line.indexOf('：');
-            let key = line.slice(0, colonIndex).trim();
-            let value = line.slice(colonIndex + 1).trim();
-
-            // 去掉 ** 标记
-            key = key.replace(/^\*\*/, '').replace(/\*\*$/, '');
-            value = value.replace(/^\*\*\s*/, '').replace(/\s*\*\*$/, '');
+            const key = line.slice(0, colonIndex).trim();
+            const value = line.slice(colonIndex + 1).trim();
 
             currentKey = key;
             currentValue = value ? [value] : [];
-        } else if (currentKey && line && !line.startsWith('_') && !line.startsWith('---')) {
-            // 累积多行值（跳过提示行）
+        } else if (currentKey && line && !isPromptLine) {
+            // 累积多行值
             currentValue.push(line);
         }
     }
@@ -59,11 +58,11 @@ function parseIssueFields(bodyString) {
  */
 function parseFieldFromContent(content, fieldName) {
     const lines = content.split('\n');
-    const pattern = `**${fieldName}**:`;
+    const pattern = `${fieldName}:`;
 
     for (const line of lines) {
-        if (line.startsWith(pattern)) {
-            return line.slice(pattern.length).replace(/\s+$/, '').trim();
+        if (line.trim().startsWith(pattern)) {
+            return line.slice(line.indexOf(':') + 1).trim();
         }
     }
 
