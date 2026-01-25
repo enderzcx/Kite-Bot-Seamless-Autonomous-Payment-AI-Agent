@@ -1,4 +1,4 @@
-# SPARK AI Hackathon
+﻿# SPARK AI Hackathon
 
 <!-- [English](/docs/README_EN-US.md) | [简体中文](/docs/README_ZH-CN.md) -->
 
@@ -47,7 +47,7 @@
 1. 禁止修改他人信息。
 2. 提交 Demo 时必须先完成注册，否则提交无效。
 3. 提交资料时，只在对应位置填写信息，不要修改其它基础内容，特别是 issues title。
-4. 提交报名后，预计1分钟内会显示在下方报名列表中，如未显示请联系相关技术人员。
+4. 提交报名后，预计1分钟内会显示在报名/提交列表页面（`docs/REGISTRATION.md`），如未显示请联系相关技术人员。
 5. 提交 Demo 时，请先 Fork 当前代码库，然后将 Demo 相关代码，放到以你 Github ID 命名的目录下，如：`/submission/[your-github-account]`，然后再提交 PR，我们会在审阅后合并，禁止修改其它信息。
 
 ## 💰 奖励形式（Awards & Prizes）
@@ -270,31 +270,16 @@
     </tr>
 </table>
 
-## 报名列表（Registration List）
+## 报名与提交列表
 
-<!-- Registration start -->
+报名/提交名单已移至独立页面，避免 README 过长：
 
-| 姓名 | GitHub ID | 联系方式 | 组队意愿 | 备注 | 更新资料 |
-| --------- | --------- | -------- | -------- | ---- | -------- |
-| Serena | [@Serenayyy123](https://github.com/Serenayyy123) | Telegram: @username，微信: username，邮箱: email@example.com):**<br>Wechat：Shoujiyangt2559 | 愿意！ | 感兴趣AI求组队！ | [Link](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/6) |
-| Serena | [@Serenayyy123](https://github.com/Serenayyy123) | Telegram: @username，微信: username，邮箱: email@example.com):**<br>shoujiyangt2559 | 是 | 关注AI赛道，有想法的小伙伴可以组队 | [Link](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/5) |
-| 测试 | [@beetroot42](https://github.com/beetroot42) | Telegram: @username，微信: username，邮箱: email@example.com):** 测试 | 测试 | 测试 | [Link](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/4) |
-
-<!-- Registration end -->
-
-## 提交名单（Submission List）
-
-<!-- Submission start -->
-
-| 项目名称 | GitHub ID | 项目描述 | 项目链接 | 提交时间 |
-| --------- | --------- | -------- | -------- | -------- |
-| - | [@beetroot42](https://github.com/beetroot42) | - | [Repo]() | 2026-01-25 |
-
-<!-- Submission end -->
+- `docs/REGISTRATION.md`
 
 ## 🔗 快速链接
 
 - 📝 [报名表单][REGISTRATION_FORM_LINK]
+- 📄 [报名/提交名单](docs/REGISTRATION.md)
 - 🎥 [教程视频 - Bilibili][VIDEO_TUTORIAL_BILIBILI]
 - 🎥 [教程视频 - YouTube][VIDEO_TUTORIAL_YOUTUBE]
 - 💬 [社区讨论](https://github.com/CasualHackathon/SPARK-AI-Hackathon/discussions)
@@ -316,3 +301,4 @@ A: 是的，所有代码需要在活动期间提交。可以基于现有框架�
 
 **Q: 获奖后有什么后续支持？**
 A: [FOLLOW_UP_SUPPORT]
+

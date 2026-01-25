@@ -9,7 +9,10 @@ const fs = require('fs');
 const path = require('path');
 
 // Paths to necessary files
-const readmePath = path.join(process.env.GITHUB_WORKSPACE, 'README.md');
+const workspace = process.env.GITHUB_WORKSPACE || process.cwd();
+const registrationDocPath = process.env.REGISTRATION_DOC_PATH
+  ? path.resolve(workspace, process.env.REGISTRATION_DOC_PATH)
+  : path.join(workspace, 'docs', 'REGISTRATION.md');
 const registrationsPath = process.env.REGISTRATIONS_PATH;
 const submissionsPath = process.env.SUBMISSIONS_PATH;
 
@@ -158,8 +161,8 @@ function replaceSection(content, startMarker, endMarker, newContent) {
 
 // --- Main Execution ---
 try {
-  // Read current README
-  let readmeContent = fs.readFileSync(readmePath, 'utf8');
+  // Read current registration doc
+  let readmeContent = fs.readFileSync(registrationDocPath, 'utf8');
 
   // 1. Process Registrations Table
   if (fs.existsSync(registrationsPath)) {
@@ -181,9 +184,9 @@ try {
     console.log('No submissions file found, skipping submission update.');
   }
 
-  // Write changes back to README
-  fs.writeFileSync(readmePath, readmeContent);
-  console.log('README.md updated successfully.');
+  // Write changes back to registration doc
+  fs.writeFileSync(registrationDocPath, readmeContent);
+  console.log('Registration doc updated successfully.');
 
 } catch (error) {
   console.error('Error updating README:', error);
