@@ -22,7 +22,10 @@ class RegistrationProcessor {
 
         // 解析字段
         const fields = parseIssueFields(issueBody);
+        console.log('🔍 解析到的字段:', JSON.stringify(fields, null, 2));
+
         const registrationData = this.extractRegistrationData(fields);
+        console.log('📝 提取的注册数据:', JSON.stringify(registrationData, null, 2));
 
         // 验证必填字段
         this.validateRegistrationData(registrationData, githubUser);
