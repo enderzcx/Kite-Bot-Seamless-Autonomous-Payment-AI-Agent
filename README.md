@@ -37,6 +37,10 @@
 |  |  |  |  |
 |  |  |  |  |
 
+<p align="center">
+    <img src="./materials/images/QR code.png" alt="QR Code" width="200" />
+  </p>
+
 **报名教程：**
 
 - [Bilibili][VIDEO_TUTORIAL_BILIBILI]
@@ -259,13 +263,13 @@
                 <img src="./materials/images/Scaling X.png" alt="Scaling X" width="130" />
             </a>
         </td>
+    </tr>
+    <tr>
         <td align="center" valign="middle">
             <a href="https://x.com/GoKiteAI" target="_blank">
                 <img src="./materials/images/Kite AI.png" alt="Kite AI" width="130" />
             </a>
         </td>
-    </tr>
-    <tr>
         <td align="center" valign="middle">
             <a href="https://x.com/DataDanceChain" target="_blank">
                 <img src="./materials/images/DataDance.png" alt="DataDance" width="130" />
@@ -276,7 +280,9 @@
                 <img src="./materials/images/SpoonOS.png" alt="SpoonOS" width="130" />
             </a>
         </td>
-        <td align="center" valign="middle">
+    </tr>
+    <tr>
+    <td align="center" valign="middle">
             <a href="https://ethereum.foundation/ef" target="_blank">
                 <img src="./materials/images/EF dev growth.png" alt="EF dev growth" width="130" />
             </a>
