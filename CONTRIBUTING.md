@@ -55,12 +55,12 @@
 | 测试 | beetroot42 | 测试 | [Repo](https://github.com/CasualHackathon/agenthack/blob/main/%E6%B5%8B%E8%AF%95) | [Folder](https://github.com/CasualHackathon/agenthack/tree/main/submissions/beetroot42) | - |
 
 
-**🔗 快速链接**
-
-- 💬 [社区讨论](https://github.com/CasualHackathon/agenthack/discussions)
-- 🐛 [问题反馈](https://github.com/CasualHackathon/agenthack/issues)
 
 
 本次黑客松全面开放参赛通道，欢迎所有感兴趣的伙伴报名参与！
 
 ---
+**🔗 快速链接**
+
+- 💬 [社区讨论](https://github.com/CasualHackathon/agenthack/discussions)
+- 🐛 [问题反馈](https://github.com/CasualHackathon/agenthack/issues)
