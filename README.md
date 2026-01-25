@@ -41,27 +41,56 @@
 4. 提交报名后，预计1分钟内会显示在下方报名列表中，如未显示请联系相关技术人员。
 5. 提交 Demo 时，请先 Fork 当前代码库，然后将 Demo 相关代码，放到以你 Github ID 命名的目录下，如：`/submission/[your-github-account]`，然后再提交 PR，我们会在审阅后合并，禁止修改其它信息。
 
-## 02 | 赛道与主题
+## 📅 赛道介绍 (Tracks)
 
-**活动主题：** 基于 AI Agent 的创新应用与工作流探索
+本次黑客松共设立三个核心赛道，你可以根据兴趣选择其一进行挑战。
 
-**赛道设置：**
+### 1. 💸 支付赛道 (Payment Track)
+**支持方**: Kite AI  
+**核心方向**: 探索 AI/Agent 场景下的自动化支付、链上结算与资金流转方案。
 
-### 🤖 SpoonOS Track: AI Agent
+* **挑战内容**: 构建能够“花钱”的 AI。无论是通过 API 自动结算，还是 AI Agent 之间的自动转账，我们期待看到 AI 在金融交互上的突破。
+* **你需要完成**: 基于 Kite AI 提供的 API 或 SDK，实现一个具备支付/结算功能的 Demo。
 
-* **核心挑战：** 基于 SpoonOS Framework 调用 LLM，构建可执行的 AI 应用或 Agent 工作流。
-* **奖励权益：** 💰 **SpoonOS 专项奖金池** + 官方技术指导
-* **技术支持：** [文档链接待更新]
+### 2. 🧠 LLM 应用赛道 (LLM Application Track)
+**支持方**: SpoonOS  
+**核心方向**: 基于 SpoonOS Framework 调用 LLM，构建可执行的 AI 应用 / Agent 工作流。
 
-### 🪁 Kite AI Track: Payment Solutions
+* **挑战内容**: 利用 SpoonOS 的框架，打造具有实际功能的工作流（Workflow）或智能体（Agent）。
+* **参考场景**: 信息抓取与总结发布、自动化客服、垂直领域助手等。
+* **推荐工具**: [SpoonOS · 最低技术使用要求（Hackathon）](https://www.notion.so/SpoonOS-Hackathon-2f1bbd63be8780db8c59c20349715dd5?pvs=21)
 
-* **核心挑战：** 探索 AI/Agent 场景下的自动化支付、链上结算与资金流转方案。
-* **奖励权益：** 🎁 **Kite AI 生态激励** + 早期开发者支持
+### 3. 🔮 预测市场赛道 (Prediction Market Track)
+**支持方**: OGBC × ScalingX  
+**核心方向**: 设计具备扩展性的预测市场结构、激励机制与数据输入方案。
 
-### 📈 ScalingX Track: Prediction Market
+* **挑战内容**: 结合博弈论与数据输入，构建一个预测市场的 Demo 或合约逻辑。
+* **参考素材**: 我们将提供行业参考案例与预测题目示例，你可以基于此设计你的机制。
 
-* **核心挑战：** 设计具备扩展性的预测市场结构及数据激励机制。
-* **奖励权益：** 🏆 **ScalingX 优胜奖励**
+
+## 🛠 开发者资源 (Developer Resources)
+
+为了帮助大家快速上手，各赛道支持方提供了详细的技术文档与素材：
+
+#### Kite AI (支付赛道)
+* **文档**: 自动化与结算 API/SDK 文档（含“一键调用支付”接口）。
+* **代码示例**: AI Agent 自动转账 Hello World 级别 Demo 代码。
+* **教程**: “如何将 AI 与支付链路打通” Workshop 视频/PPT。
+
+#### SpoonOS (LLM 应用赛道)
+* **指南**: SpoonOS Framework 快速上手指南。
+* **模板库**: 常见 Agent 工作流模板（如：抓取信息 -> 总结 -> 发布）。
+* **FAQ**: 环境安装与模型调用常见报错解答。
+* **Workshop**: Rick 老师的 SpoonOS 实战教学视频。
+
+#### OGBC × ScalingX (预测市场赛道)
+* **逻辑文档**: 预测市场合约交互文档与逻辑架构图（适合快速理解底层逻辑）。
+* **案例库**: 过往优秀的预测市场项目案例链接。
+* **实战任务**: 现成的预测题目示例与行业素材。
+
+#### 工具支持 (Optional)
+* **DataDance SDK**: 推荐使用，用于增强数据处理能力。[查看文档](https://docs.google.com/document/d/1xbGWsV8spQXA2ZBCmN-xJjcNvdJEWwo77edUyXh0aKs/edit?tab=t.0)
+
 
 ## 03 | 项目提交要求
 
