@@ -253,9 +253,6 @@ Fork 本仓库到你的个人 GitHub，并 Clone 到本地。
 <!-- Registration start -->
 | 姓名 | GitHub ID | 联系方式 | 组队意愿 | 备注 | 更新资料 |
 | ---- | ----------- | ----------- | ----------- | ------- | ------- |
-| asd | beetroot42 | sd | asd |sd | [更新](https://github.com/CasualHackathon/agenthack/issues/new?title=Registration%20-%20asd&body=Name%20%5B%E5%A7%93%E5%90%8D%5D%3A%20asd%0AContactMethod%20%5B%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F%5D%3A%20sd%0AWantsTeam%20%5B%E7%BB%84%E9%98%9F%E6%84%8F%E6%84%BF%5D%3A%20asd%0AComment%20%5B%E5%A4%87%E6%B3%A8%5D%3A%20sd) |
-| Serena | Serenayyy123 | 微信：shoujiyangt2559 | 愿意！ |感兴趣AI，欢迎大家联系我组队 | [更新](https://github.com/CasualHackathon/agenthack/issues/new?title=Registration%20-%20Serena&body=Name%20%5B%E5%A7%93%E5%90%8D%5D%3A%20Serena%0AContactMethod%20%5B%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F%5D%3A%20%E5%BE%AE%E4%BF%A1%EF%BC%9Ashoujiyangt2559%0AWantsTeam%20%5B%E7%BB%84%E9%98%9F%E6%84%8F%E6%84%BF%5D%3A%20%E6%84%BF%E6%84%8F%EF%BC%81%0AComment%20%5B%E5%A4%87%E6%B3%A8%5D%3A%20%E6%84%9F%E5%85%B4%E8%B6%A3AI%EF%BC%8C%E6%AC%A2%E8%BF%8E%E5%A4%A7%E5%AE%B6%E8%81%94%E7%B3%BB%E6%88%91%E7%BB%84%E9%98%9F) |
-| 测试 | lejusuelge-star | 测试 | 测啊 |测试 | [更新](https://github.com/CasualHackathon/agenthack/issues/new?title=Registration%20-%20%E6%B5%8B%E8%AF%95&body=Name%20%5B%E5%A7%93%E5%90%8D%5D%3A%20%E6%B5%8B%E8%AF%95%0AContactMethod%20%5B%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F%5D%3A%20%E6%B5%8B%E8%AF%95%0AWantsTeam%20%5B%E7%BB%84%E9%98%9F%E6%84%8F%E6%84%BF%5D%3A%20%E6%B5%8B%E5%95%8A%0AComment%20%5B%E5%A4%87%E6%B3%A8%5D%3A%20%E6%B5%8B%E8%AF%95) |
 
 <!-- Registration end -->
 
