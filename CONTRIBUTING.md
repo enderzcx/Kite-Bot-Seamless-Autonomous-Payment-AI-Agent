@@ -12,7 +12,7 @@
 4. 提交报名后，预计 1 分钟内会显示在下方报名列表中，如未显示请联系相关技术人员。
 5. 提交 Demo 时，请先 Fork 当前代码库，然后将 Demo 相关代码放到以你 Github ID 命名的目录下，如：`/submission/[your-github-account]`，然后再提交 PR，我们会在审阅后合并。
 
-## **3、项目提交要求 (Submission Guide)**
+## 03 | 项目提交要求 (Submission Guide)**
 
 **⏰ Demo 提交截止时间：** **2026.2.1 12:00 前（UTC+8）**
 
