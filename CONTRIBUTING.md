@@ -53,3 +53,11 @@
 | --- | --- | --- | --- | --- |
 | Spark AI | Serenayyy123 | test | [Repo](https://github.com/Serenayyy123/EverEcho-on-ZetaChain) | [Folder](https://github.com/CasualHackathon/agenthack/tree/main/submissions/Serenayyy123) | - |
 | 测试 | beetroot42 | 测试 | [Repo](https://github.com/CasualHackathon/agenthack/blob/main/%E6%B5%8B%E8%AF%95) | [Folder](https://github.com/CasualHackathon/agenthack/tree/main/submissions/beetroot42) | - |
+
+
+
+
+
+本次黑客松全面开放参赛通道，欢迎所有感兴趣的伙伴报名参与！
+
+---
