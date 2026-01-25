@@ -121,7 +121,7 @@
 | | 实战题目 | 项目方发布的实战预测任务素材 |
 | **DataDance** | SDK 文档 | [DataDance SDK 开发文档](https://docs.google.com/document/d/1xbGWsV8spQXA2ZBCmN-xJjcNvdJEWwo77edUyXh0aKs/edit) (处理数据神器) |
 
-## 03 | 项目提交要求
+## 03 | 项目提交要求(Submission Guide)
 
 **截止时间：** **2026.1.30 23:59 前（UTC+8）**
 
