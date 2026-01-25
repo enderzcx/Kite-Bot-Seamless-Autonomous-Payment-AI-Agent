@@ -262,10 +262,9 @@ Fork 本仓库到你的个人 GitHub，并 Clone 到本地。
 ## 09 | 提交名单
 
 <!-- Submission start -->
-
 | 项目名称 | GitHub ID | 项目描述 | 项目链接 | 提交时间 |
-| --------- | --------- | -------- | -------- | -------- |
-| 待更新... | - | - | - | - |
+| ----------- | ----------------- | -------------- | ------ | -------- |
+| 测试 | beetroot42 | 测试 | [Repo](测试) \| [Folder](https://github.com/CasualHackathon/agenthack/tree/main/submissions/beetroot42) | - |
 
 <!-- Submission end -->
 
