@@ -42,7 +42,7 @@ jobs:
                 const { owner, repo } = context.repo;
                 const issue_number = context.payload.issue.number;
 
-                await github.est.issues.createComment({
+                await github.rest.issues.createComment({
                 owner,
                 repo,
                 issue_number,
