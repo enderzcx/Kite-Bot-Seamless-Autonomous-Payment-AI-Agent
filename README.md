@@ -134,7 +134,7 @@
 | | 实战题目 | 项目方发布的实战预测任务素材 |
 | **DataDance** | SDK 文档 | [DataDance SDK 开发文档](https://docs.google.com/document/d/1xbGWsV8spQXA2ZBCmN-xJjcNvdJEWwo77edUyXh0aKs/edit) (处理数据神器) |
 
-## 03 | 项目提交要求(Submission Guide)
+## 项目提交要求(Submission Guide)
 
 **⏰Demo提交截止时间：** **2026.1.30 23:59 前（UTC+8）**
 
@@ -160,7 +160,7 @@
 - ✅ 每个核心团队成员的联系信息（微信 / Github 邮箱 / 钱包地址）
 
 
-## 04 | Demo Day 展示指南（Showcase & Demo Guide）
+## Demo Day 展示指南（Showcase & Demo Guide）
 
 **时间：** [DEMO_DAY_DATE_TIME] (UTC+8)
 
@@ -222,7 +222,7 @@
 
 
 
-## 07 | 赞助商与合作伙伴（Sponsors & Partners）
+## 赞助商与合作伙伴（Sponsors & Partners）
 
 | | | | |
 | :---: | :---: | :---: | :---: |
@@ -256,7 +256,7 @@
     </tr>
 </table>
 
-## 08 | 报名列表（Registration List）
+## 报名列表（Registration List）
 
 <!-- Registration start -->
 
@@ -268,7 +268,7 @@
 
 <!-- Registration end -->
 
-## 09 | 提交名单（Submission List）
+## 提交名单（Submission List）
 
 <!-- Submission start -->
 
