@@ -25,19 +25,18 @@
 
 ## 报名方式与议程安排（Registration & Schedule）
 
-📍 线上举行｜自由报名（面向所有人）
+赛事总览：1 月 26 日 – 1 月 1 日；全程线上。
 
 | 活动 (Event) | 时间 (Time UTC+8) | 形式 (Format) | 相关链接 (Link) |
 | --- | --- | --- | --- |
-| **🚀 赛季总览 (Duration)** | **2026/01/26 - 02/04** | **全程线上** | **-** |
-| **👋 开始报名&组队** | 1月26日 20:00 | 📍 GitHub Issue | [**👉 点击此处报名**](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/new?template=register.md) |
-| **💻 Co-building (开发期)** | **1月27日 - 1月30/31日** | 📍 自由开发  | *Hacking Time!* |
-| **🗓 Open Day (开营仪式)** | 1月28日 19:00-20:30 | 📍 Zoom | [Zoom 链接](https://us06web.zoom.us/j/82510601772?pwd=2MtYQkfkFOIUsz98wb4lrzcdMQO1iB.1)|
+| **👋 开始报名 & 组队** | 1月26日 20:00 | 📍 GitHub Issue | [**👉 点击此处报名**](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/new?template=register.md) |
+| **💻 Co-building (开发期)** | 1月27日 - 1月30/31日 | 📍 自由开发  | *Hacking Time!* |
+| **🗓 Open Day (开幕式)** | **1月28日 19:00-20:30** | 📍 Zoom | [Zoom 链接] |
 | **🛠 Tech Workshop** | 1月29日  | 📍 Zoom | [Zoom 链接] |
-| **💬 AMA: Workshop** | **1月28/30日** | 📍 Zoom / Twitter | [Zoom 链接]|
+| **💬 AMA / Workshop** | **1月28/30日** | 📍 Zoom / Twitter | [Zoom 链接] |
 | **📥 Demo 提交截止** | **2月1日 12:00** | 📍 GitHub Issue | [**👉 点击此处提交 Demo**](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/new?template=submission.md) |
-| **🏁 Demo Day (路演)** | 2月1日 20:00-22:00 | 📍 Zoom | [Zoom 链接] |
-| **🏆 获奖公示 (Awards)** | **2月4日** | 📍 社区公告 | - |
+| **🏁 Demo Day (路演)** | **2月1日 20:00-22:00** | 📍 Zoom | [Zoom 链接] |
+| **🏆 获奖公示 (Awards)** | **2月4日** | 📍 社区公告 | x 链接 |
 
 **报名/提交名单查看：** [docs/REGISTRATION.md](docs/REGISTRATION.md)
 
