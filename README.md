@@ -20,7 +20,8 @@
 
 ## 📊 活动主视觉（Hero Image）
 
-![Agent Hack Banner][BANNER_IMAGE_PATH]
+<img width="1920" height="1080" alt="f5df04aeee71c3e5191d5af799c3db5" src="https://github.com/user-attachments/assets/b5c9920a-645d-4d29-b690-2db2a5ade598" />
+
 
 ## 报名方式与议程安排（Registration & Schedule）
 
