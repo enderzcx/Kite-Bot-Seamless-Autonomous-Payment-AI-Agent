@@ -12,9 +12,13 @@
 - [ZOOM_LINK] - Demo Day Zoom 链接
 -->
 
-🧬
+🧬🧬当 AI 撞击 Web3，让创意真正落地
 
-## 📊 活动主视觉
+**SPARK AI Hackathon** 是一场面向所有人的 **休闲黑客松（Casual Hackathon）**。
+
+这里不比通宵、不拼履历、不设隐形门槛——我们关心的，从来不是你写了多少行代码，而是你的想法，是否真的能点燃火花。
+
+## 📊 活动主
 
 ![Agent Hack Banner][BANNER_IMAGE_PATH]
 
