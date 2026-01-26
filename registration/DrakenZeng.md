@@ -1,7 +1,7 @@
 # DrakenZeng
 
-Name: you name
-Introduction: you name
-ContactMethod: you name
-WantsTeam: you name
-Comment: you name
+Name: tester
+Introduction: tester
+ContactMethod: tester
+WantsTeam: tester
+Comment: tester
