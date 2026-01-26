@@ -64,10 +64,10 @@
 ## **05 | 项目提交名单（Submission List）**
 
 <!-- Submission start -->
-| 项目名称 | GitHub ID | 项目描述 | 项目链接 | 提交时间 |
-| ----------- | ----------------- | -------------- | ------ | -------- |
-| give me a cloa | DrakenZeng | LLM 应用赛道 | [Repo](LLM 应用赛道) \| [Folder](https://github.com/CasualHackathon/agenthack/tree/main/submissions/DrakenZeng) | - |
-| 项目名称 | DrakenEth | 无 | [Repo](https://github.com/CasualHackathon/SPARK-AI-Hackathon) \| [Folder](https://github.com/CasualHackathon/agenthack/tree/main/submissions/DrakenEth) | - |
+| 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
+| ----------- | -------------- | ------ | ------ | ------ |
+| give me a cloa | LLM 应用赛道 | LLM 应用赛道 | [🔗](LLM 应用赛道) | [编辑](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/new?template=submission.md) |
+| 项目名称 | 无 | Me | [🔗](https://github.com/CasualHackathon/SPARK-AI-Hackathon) | [编辑](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/new?template=submission.md) |
 
 <!-- Submission end -->
 

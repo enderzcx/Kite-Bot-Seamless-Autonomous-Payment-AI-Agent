@@ -163,13 +163,13 @@ ${FIELD_NAMES.SUBMISSION.TEAM_WALLET_ADDRESS}: ${teamWalletAddress}`;
      * @returns {string} 表格内容
      */
     static generateSubmissionTable(rows, submissionRoot) {
-        let table = '| 项目名称 | GitHub ID | 项目描述 | 项目链接 | 提交时间 |\n| ----------- | ----------------- | -------------- | ------ | -------- |\n';
+        let table = '| 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |\n| ----------- | -------------- | ------ | ------ | ------ |\n';
 
         rows.forEach(row => {
-            // 生成操作链接
-            const folderUrl = ReadmeManager.generateFolderUrl(`submissions/${row.folder}`);
+            // 生成编辑链接
+            const editUrl = `https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/new?template=submission.md`;
 
-            table += `| ${row.projectName} | ${row.folder} | ${row.projectDescription} | [Repo](${row.repoLink}) \\| [Folder](${folderUrl}) | - |\n`;
+            table += `| ${row.projectName} | ${row.projectDescription} | ${row.teamLead} | [🔗](${row.repoLink}) | [编辑](${editUrl}) |\n`;
         });
 
         return table;
