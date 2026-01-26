@@ -48,7 +48,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh issue list --label "registration" --state all --json number,title,body,author,url,createdAt --limit 1000 > registrations.json
+          gh issue list --label "registration" --state open --json number,title,body,author,url,createdAt --limit 1000 > registrations.json
           echo "Debug: Registrations found:"
           cat registrations.json
 
