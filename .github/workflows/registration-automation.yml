@@ -16,9 +16,9 @@ jobs:
   process-registration:
     runs-on: ubuntu-latest
     if: |
-      (github.event.action == 'opened' && startsWith(github.event.issue.title, '[报名]')) ||
-      (github.event.action == 'closed' && github.event.issue.state_reason == 'completed' && startsWith(github.event.issue.title, '[报名]') && github.actor != 'github-actions[bot]') ||
-      (github.event.action == 'edited' && startsWith(github.event.issue.title, '[报名]'))
+      (github.event.action == 'opened' && (startsWith(github.event.issue.title, 'Registration') || startsWith(github.event.issue.title, '报名参赛'))) ||
+      (github.event.action == 'closed' && github.event.issue.state_reason == 'completed' && (startsWith(github.event.issue.title, 'Registration') || startsWith(github.event.issue.title, '报名参赛')) && github.actor != 'github-actions[bot]') ||
+      (github.event.action == 'edited' && (startsWith(github.event.issue.title, 'Registration') || startsWith(github.event.issue.title, '报名参赛')))
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4

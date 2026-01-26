@@ -1,7 +1,7 @@
 ---
 name: 🙋‍♂️ 报名参赛 (Registration)
 about: 登记你的个人信息以参与黑客松
-title: "[报名] 你的姓名"
+title: "Registration: 你的姓名"
 labels: "registration"
 assignees: ""
 ---

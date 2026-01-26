@@ -50,8 +50,8 @@ const GIT_CONFIG = {
 const GITHUB_CONFIG = {
     REPO_URL: 'https://github.com/CasualHackathon/agenthack',
     ISSUE_TITLE_PREFIXES: {
-        REGISTRATION: 'Registration',
-        SUBMISSION: 'Submission'
+        REGISTRATION: ['Registration', '报名参赛'],
+        SUBMISSION: ['Submission', '参赛项目提交']
     }
 };
 
