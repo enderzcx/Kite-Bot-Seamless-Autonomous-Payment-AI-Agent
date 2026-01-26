@@ -79,13 +79,13 @@ function formatCol(text) {
  * @returns {string} The complete Markdown table string
  */
 function generateRegistrationTable(issues) {
-  // Define Table Header
-  let table = '| # | 姓名 | GitHub ID | 个人介绍 | 联系方式 | 钱包地址 | 组队意愿 | 赛道选择 | 备注 | 更新资料 |\n';
-  table += '| --- | --------- | --------- | -------- | -------- | -------- | -------- | -------- | ---- | -------- |\n';
+  // Define Table Header (removed GitHub ID and Wallet Address columns)
+  let table = '| # | 姓名 | 个人介绍 | 联系方式 | 组队意愿 | 赛道选择 | 备注 | 更新资料 |\n';
+  table += '| --- | --------- | -------- | -------- | -------- | -------- | ---- | -------- |\n';
 
   // Return placeholder if list is empty
   if (!issues || issues.length === 0) {
-    table += '| - | 待更新... | - | - | - | - | - | - | - | - |\n';
+    table += '| - | 待更新... | - | - | - | - | - | - |\n';
     return table;
   }
 
@@ -97,15 +97,13 @@ function generateRegistrationTable(issues) {
     const name = extractValueNewFormat(body, 'Name') || (issue.title || '').replace('[报名] ', '');
     const introduction = extractValueNewFormat(body, 'Introduction');
     const contact = extractValueNewFormat(body, 'ContactMethod');
-    const wallet = extractValueNewFormat(body, 'Wallet Address');
     const wantsTeam = extractValueNewFormat(body, 'WantsTeam');
     const track = extractValueNewFormat(body, 'Track');
     const comment = extractValueNewFormat(body, 'Comment');
 
-    const githubId = issue.author ? issue.author.login : 'unknown';
     const issueUrl = issue.url;
 
-    table += `| ${index + 1} | ${formatCol(name)} | [@${githubId}](https://github.com/${githubId}) | ${formatCol(introduction)} | ${formatCol(contact)} | ${formatCol(wallet)} | ${formatCol(wantsTeam)} | ${formatCol(track)} | ${formatCol(comment)} | [编辑](${issueUrl}) |\n`;
+    table += `| ${index + 1} | ${formatCol(name)} | ${formatCol(introduction)} | ${formatCol(contact)} | ${formatCol(wantsTeam)} | ${formatCol(track)} | ${formatCol(comment)} | [编辑](${issueUrl}) |\n`;
   });
 
   return table;
@@ -118,12 +116,12 @@ function generateRegistrationTable(issues) {
  * @returns {string} The complete Markdown table string
  */
 function generateSubmissionTable(issues) {
-  // Define Table Header
-  let table = '| # | 项目名称 | 赛道 | GitHub ID | 项目描述 | 负责人 | 项目链接 | 提交时间 |\n';
-  table += '| --- | --------- | --------- | --------- | -------- | -------- | -------- | -------- |\n';
+  // Define Table Header (removed GitHub ID and submission time, added operation column)
+  let table = '| # | 项目名称 | 赛道 | 项目描述 | 负责人 | 项目链接 | 操作 |\n';
+  table += '| --- | --------- | --------- | -------- | -------- | -------- | -------- |\n';
 
   if (!issues || issues.length === 0) {
-    table += '| - | 待更新... | - | - | - | - | - | - |\n';
+    table += '| - | 待更新... | - | - | - | - | - |\n';
     return table;
   }
 
@@ -138,11 +136,9 @@ function generateSubmissionTable(issues) {
     const repoLink = extractValueNewFormat(body, 'Github Repo Link');
     const teamLead = extractValueNewFormat(body, 'Team Lead');
 
-    const githubId = issue.author ? issue.author.login : 'unknown';
-    // Format date as YYYY-MM-DD
-    const date = issue.createdAt ? issue.createdAt.split('T')[0] : '-';
+    const issueUrl = issue.url;
 
-    table += `| ${index + 1} | ${formatCol(projectName)} | ${formatCol(track)} | [@${githubId}](https://github.com/${githubId}) | ${formatCol(description)} | ${formatCol(teamLead)} | [Repo](${repoLink}) | ${date} |\n`;
+    table += `| ${index + 1} | ${formatCol(projectName)} | ${formatCol(track)} | ${formatCol(description)} | ${formatCol(teamLead)} | [🔗](${repoLink}) | [编辑](${issueUrl}) |\n`;
   });
 
   return table;
