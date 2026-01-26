@@ -28,7 +28,7 @@
 这里不比通宵、不拼履历、不设隐形门槛——我们关心的，从来不是你写了多少行代码，而是你的想法，是否真的能点燃火花。
 | 活动 (Event) | 时间 (Time UTC+8) | 形式 (Format) | 相关链接 (Link) |
 | --- | --- | --- | --- |
-| **👋 开始报名 & 组队** | 1月26日 20:00 | 📍 GitHub Issue | [**👉 点击此处报名**](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/new?template=register.md) |
+
 | **💻 Co-building (开发期)** | 1月27日 - 1月30/31日 | 📍 自由开发  | *Hacking Time!* |
 | **🗓 Open Day (开幕)** | **1月28日 19:00-20:30** | 📍 Zoom | [**ZOOM 链接**](https://us06web.zoom.us/j/82510601772?pwd=2MtYQkfkFOIUsz98wb4lrzcdMQO1iB.1) |
 | **🛠 Tech Workshop** | 1月29日  | 📍 Zoom | [Zoom 链接] |
@@ -37,17 +37,19 @@
 | **🏁 Demo Day (路演)** | **2月1日 20:00-22:00** | 📍 Zoom |  [Zoom 链接]  |
 | **🏆 获奖公示 (Awards)** | **2月4日** | 📍 社区公告 | x 链接 |
 
+**开始报名 & 组队：[**👉 点击此处报名**](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/new?template=register.md) |
 **报名/提交名单查看：** [docs/REGISTRATION.md](docs/REGISTRATION.md)
+ [**报名教程**](https://github.com/CasualHackathon/SPARK-AI-Hackathon/tree/main?tab=contributing-ov-file) ：
+
+- [Bilibili][VIDEO_TUTORIAL_BILIBILI]
+- [YouTube][VIDEO_TUTORIAL_YOUTUBE]
 
 **赛事交流群：（如果社群已满 200 人，需添加运营人员微信邀请入群： clynn2024）**
 <p align="center">
     <img src="./materials/images/QR code.png" alt="QR Code" width="200" />
   </p>
 
- [**报名教程**](https://github.com/CasualHackathon/SPARK-AI-Hackathon/tree/main?tab=contributing-ov-file) ：
 
-- [Bilibili][VIDEO_TUTORIAL_BILIBILI]
-- [YouTube][VIDEO_TUTORIAL_YOUTUBE]
 
 ## **01 | 参赛规则与激励（Participation Rules & Incentives）**
 
@@ -247,11 +249,6 @@
     </tr>
 </table>
 
-## 报名与提交列表（Registration & Submissions）
-
-报名/提交名单已移至独立页面，避免 README 过长：
-
-- `docs/REGISTRATION.md`
 
 
 ## **05｜常见问题 (FAQ)**
