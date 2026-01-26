@@ -42,8 +42,6 @@
 **报名入口：** [点击报名](https://github.com/CasualHackathon/SPARK-AI-Hackathon?tab=contributing-ov-file)  
 **Demo 提交入口：** [提交 Demo](https://github.com/CasualHackathon/SPARK-AI-Hackathon?tab=contributing-ov-file)
 
-**报名 / 提交名单查看**  
-👉 [docs/REGISTRATION.md](docs/REGISTRATION.md)
 
 
 **报名/提交概览：**
