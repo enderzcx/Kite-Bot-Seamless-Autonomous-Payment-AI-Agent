@@ -47,7 +47,7 @@
 **报名/提交概览：**
 <!-- Registration summary start -->
 
-报名人数：0｜提交人数：0（名单详见 `CONTRIBUTING.md`）
+报名人数：1｜提交人数：0（名单详见 `CONTRIBUTING.md`）
 <!-- Registration summary end -->
 
 **赛事交流群：（如果社群已满 200 人，需添加运营人员微信邀请入群： clynn2024）**
