@@ -1,6 +1,7 @@
 const path = require('path');
+const fs = require('fs');
 const FileManager = require('../utils/file-manager');
-const { README_MARKERS, GITHUB_CONFIG } = require('../config/constants');
+const { README_MARKERS, GITHUB_CONFIG, DIRECTORIES } = require('../config/constants');
 
 /**
  * README 管理类
@@ -79,6 +80,28 @@ class ReadmeManager {
      */
     static generateFolderUrl(folderPath) {
         return `${GITHUB_CONFIG.REPO_URL}/tree/main/${folderPath}`;
+    }
+
+    /**
+     * 更新 README 中的报名/提交人数统计
+     */
+    static updateSummary() {
+        const registrationCount = FileManager.getDirectoryFiles(DIRECTORIES.REGISTRATION, '.md').length;
+        const submissionCount = FileManager.getDirectoryFiles(DIRECTORIES.SUBMISSION).filter(f => !f.startsWith('.')).length;
+
+        const readmePath = this.getReadmePath();
+        const markers = README_MARKERS.SUMMARY;
+
+        let readmeContent = FileManager.readFileContent(readmePath);
+        const summaryContent = `报名人数：${registrationCount}｜提交人数：${submissionCount}（名单详见 \`CONTRIBUTING.md\`）`;
+
+        const updatedContent = readmeContent.replace(
+            new RegExp(`(${this.escapeRegex(markers.START)})[\\s\\S]*?(${this.escapeRegex(markers.END)})`, 'g'),
+            `$1\n${summaryContent}\n$2`
+        );
+
+        FileManager.writeFileContent(readmePath, updatedContent);
+        console.log(`README 统计信息已更新: 报名 ${registrationCount} 人, 提交 ${submissionCount} 个`);
     }
 }
 
