@@ -13,7 +13,7 @@ assignees: ""
 **ProjectName** (请输入您的项目名称 | 必填)
 >
 
-**Track** (赛道 | 必填)
+**Track** (赛道: 支付赛道 / LLM 应用赛道 / 预测市场赛道 | 必填)
 >
 
 **ProjectDescription** (项目描述 | 必填)
