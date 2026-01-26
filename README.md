@@ -100,7 +100,7 @@
 ---
 ### **2.**  [**SpoonOS**](https://x.com/SpoonOS_ai) - **LLM 应用 (LLM Application Track)**
 
-**🎯 核心目标：基于 SpoonOS Framework 调用大语言模型（LLM），构建 **可执行的 AI 应用或 Agent 工作流**，而不仅仅是单轮对话 Demo。**
+**🎯 核心目标：基于 SpoonOS Framework，结合 React Agent / Graph Agent 调用 LLM，构建以 Agent 为核心的可执行 AI 应用或工作流系统。项目需将 Agent 体系作为核心功能模块，而非仅用于 Demo 或辅助调用。**
 
 **💡 开发灵感**
 
