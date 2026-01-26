@@ -11,6 +11,7 @@
 
 | 姓名 | GitHub ID | 联系方式 | 组队意愿 | 赛道选择 | 备注 | 更新资料 |
 | --------- | --------- | -------- | -------- | -------- | ---- | -------- |
+| 虫虫测试 | [@rebelrebel-tech](https://github.com/rebelrebel-tech) | - | - | - | - | [Link](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/27) |
 | Draken | [@DrakenZeng](https://github.com/DrakenZeng) | - | - | - | - | [Link](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/26) |
 | [报名] 你的姓名 | [@Ylim314](https://github.com/Ylim314) | - | - | - | - | [Link](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/22) |
 | Serena | [@Serenayyy123](https://github.com/Serenayyy123) | Telegram: @username，微信: username，邮箱: email@example.com):**<br>Wechat：Shoujiyangt2559 | 愿意！ | - | 感兴趣AI求组队！ | [Link](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/6) |
