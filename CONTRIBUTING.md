@@ -4,6 +4,13 @@
 
 ## 01 | 报名教程视频（Registration Tutorial）
 
+[报名参赛 ➡️](<https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/new?template=register.md>)  
+[参赛项目提交 ➡️](<https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/new?template=submission.md>)
+
+**报名教程**  
+- [Bilibili 教程](https://www.bilibili.com/xxxx)
+- [YouTube 教程](https://www.youtube.com/xxxx)
+
 ## **02 | 注意事项（Important Notes）**
 
 1. 禁止修改他人信息。

@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="f5df04aeee71c3e5191d5af799c3db5" src="https://github.com/user-attachments/assets/b5c9920a-645d-4d29-b690-2db2a5ade598" />
+﻿<img width="1920" height="1080" alt="f5df04aeee71c3e5191d5af799c3db5" src="https://github.com/user-attachments/assets/b5c9920a-645d-4d29-b690-2db2a5ade598" />
  
  # SPARK AI Hackathon
 
@@ -39,19 +39,11 @@
 | 🏁 Demo Day (路演) | 2月1日 19:00-21:00 | 📍 Zoom | Zoom 链接（待补充） |
 | 🏆 获奖公示 (Awards) | 2月4日 | 📍 社区公告 | X 链接（待补充） |
 
-**报名入口：** [点击报名](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/new?template=register.md)  
-**Demo 提交入口：** [提交 Demo](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/new?template=submission.md)  
-**报名教程说明：** [查看报名教程](https://github.com/CasualHackathon/SPARK-AI-Hackathon/tree/main?tab=contributing-ov-file)
-
-
-
+**报名入口：** [点击报名](https://github.com/CasualHackathon/SPARK-AI-Hackathon?tab=contributing-ov-file)  
+**参赛项目提交：** [提交 Demo](https://github.com/CasualHackathon/SPARK-AI-Hackathon?tab=contributing-ov-file)
 
 **报名 / 提交名单查看**  
 👉 [docs/REGISTRATION.md](docs/REGISTRATION.md)
-
-**报名教程**  
-- [Bilibili 教程](https://www.bilibili.com/xxxx)
-- [YouTube 教程](https://www.youtube.com/xxxx)
 
 
 **报名/提交概览：**
@@ -264,40 +256,6 @@
         </td>
     </tr>
 </table>
-
-
-## 报名与提交列表
-
-报名/提交名单会自动同步（约 1 分钟内更新）。也可查看独立页面：`docs/REGISTRATION.md`
-
-<details>
-<summary>报名列表（点击展开）</summary>
-
-<!-- Registration start -->
-| 姓名 | GitHub ID | 联系方式 | 组队意愿 | 备注 | 更新资料 |
-| ---- | ----------- | ----------- | ----------- | ------- | ------- |
-| Serena | Serenayyy123 | 微信: shoujiyangt2559 | 愿意 |有AI想法的小伙伴求组队 | [更新](https://github.com/CasualHackathon/agenthack/issues/new?title=Registration%20-%20Serena&body=Name%20%5B%E5%A7%93%E5%90%8D%5D%3A%20Serena%0AContactMethod%20%5B%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F%5D%3A%20%E5%BE%AE%E4%BF%A1%3A%20shoujiyangt2559%0AWantsTeam%20%5B%E7%BB%84%E9%98%9F%E6%84%8F%E6%84%BF%5D%3A%20%E6%84%BF%E6%84%8F%0AComment%20%5B%E5%A4%87%E6%B3%A8%5D%3A%20%E6%9C%89AI%E6%83%B3%E6%B3%95%E7%9A%84%E5%B0%8F%E4%BC%99%E4%BC%B4%E6%B1%82%E7%BB%84%E9%98%9F) |
-| test | DrakenZeng | Telegram: @username，微信: username，邮箱: email@example.com_ | No |No | [更新](https://github.com/CasualHackathon/agenthack/issues/new?title=Registration%20-%20test&body=Name%20%5B%E5%A7%93%E5%90%8D%5D%3A%20test%0AContactMethod%20%5B%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F%5D%3A%20Telegram%3A%20%40username%EF%BC%8C%E5%BE%AE%E4%BF%A1%3A%20username%EF%BC%8C%E9%82%AE%E7%AE%B1%3A%20email%40example.com_%0AWantsTeam%20%5B%E7%BB%84%E9%98%9F%E6%84%8F%E6%84%BF%5D%3A%20No%0AComment%20%5B%E5%A4%87%E6%B3%A8%5D%3A%20No) |
-| Vincent | vincentxthen | @VincentXthen @VincentXthen VincentXthen@gmail.com | ASDASDASDADS |VincentVincentVincent | [更新](https://github.com/CasualHackathon/agenthack/issues/new?title=Registration%20-%20Vincent&body=Name%20%5B%E5%A7%93%E5%90%8D%5D%3A%20Vincent%0AContactMethod%20%5B%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F%5D%3A%20%40VincentXthen%20%40VincentXthen%20VincentXthen%40gmail.com%0AWantsTeam%20%5B%E7%BB%84%E9%98%9F%E6%84%8F%E6%84%BF%5D%3A%20ASDASDASDADS%0AComment%20%5B%E5%A4%87%E6%B3%A8%5D%3A%20VincentVincentVincent) |
-| 测试 | beetroot42 | 测试 | 测试 |测试 | [更新](https://github.com/CasualHackathon/agenthack/issues/new?title=Registration%20-%20%E6%B5%8B%E8%AF%95&body=Name%20%5B%E5%A7%93%E5%90%8D%5D%3A%20%E6%B5%8B%E8%AF%95%0AContactMethod%20%5B%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F%5D%3A%20%E6%B5%8B%E8%AF%95%0AWantsTeam%20%5B%E7%BB%84%E9%98%9F%E6%84%8F%E6%84%BF%5D%3A%20%E6%B5%8B%E8%AF%95%0AComment%20%5B%E5%A4%87%E6%B3%A8%5D%3A%20%E6%B5%8B%E8%AF%95) |
-| 测试 | lejusuelge-star | asd@gmail.com | y |无 | [更新](https://github.com/CasualHackathon/agenthack/issues/new?title=Registration%20-%20%E6%B5%8B%E8%AF%95&body=Name%20%5B%E5%A7%93%E5%90%8D%5D%3A%20%E6%B5%8B%E8%AF%95%0AContactMethod%20%5B%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F%5D%3A%20asd%40gmail.com%0AWantsTeam%20%5B%E7%BB%84%E9%98%9F%E6%84%8F%E6%84%BF%5D%3A%20y%0AComment%20%5B%E5%A4%87%E6%B3%A8%5D%3A%20%E6%97%A0) |
-
-<!-- Registration end -->
-
-</details>
-
-<details>
-<summary>提交名单（点击展开）</summary>
-
-<!-- Submission start -->
-
-| 项目名称 | GitHub ID | 项目描述 | 项目链接 | 提交时间 |
-| --------- | --------- | -------- | -------- | -------- |
-| 待更新... | - | - | - | - |
-
-<!-- Submission end -->
-
-</details>
 
 ## **05｜常见问题 (FAQ)**
 

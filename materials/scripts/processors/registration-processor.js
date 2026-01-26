@@ -151,14 +151,14 @@ ${FIELD_NAMES.REGISTRATION.COMMENT}: ${comment}
      * @returns {string} 表格内容
      */
     static generateRegistrationTable(rows) {
-        let table = '| 姓名 | GitHub ID | 联系方式 | 组队意愿 | 备注 | 更新资料 |\n| ---- | ----------- | ----------- | ----------- | ------- | ------- |\n';
+        let table = '| # | 姓名 | GitHub ID | 联系方式 | 组队意愿 | 备注 | 更新资料 |\n| --- | ---- | ----------- | ----------- | ----------- | ------- | ------- |\n';
 
-        rows.forEach(row => {
+        rows.forEach((row, index) => {
             const issueTitle = `${GITHUB_CONFIG.ISSUE_TITLE_PREFIXES.REGISTRATION} - ${row.name}`;
             const issueBody = `${FIELD_NAMES.REGISTRATION.NAME}: ${row.name}\n${FIELD_NAMES.REGISTRATION.CONTACT_METHOD}: ${row.contactMethod}\n${FIELD_NAMES.REGISTRATION.WANTS_TEAM}: ${row.WantsTeam}\n${FIELD_NAMES.REGISTRATION.COMMENT}: ${row.comment}`;
             const issueUrl = ReadmeManager.generateIssueUrl(issueTitle, issueBody);
 
-            table += `| ${row.name} | ${row.githubID} | ${row.contactMethod} | ${row.WantsTeam} |${row.comment} | [更新](${issueUrl}) |\n`;
+            table += `| ${index + 1} | ${row.name} | ${row.githubID} | ${row.contactMethod} | ${row.WantsTeam} |${row.comment} | [编辑](${issueUrl}) |\n`;
         });
 
         return table;

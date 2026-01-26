@@ -72,17 +72,17 @@ function formatCol(text) {
  */
 function generateRegistrationTable(issues) {
   // Define Table Header
-  let table = '| 姓名 | GitHub ID | 联系方式 | 组队意愿 | 赛道选择 | 备注 | 更新资料 |\n';
-  table += '| --------- | --------- | -------- | -------- | -------- | ---- | -------- |\n';
+  let table = '| # | 姓名 | GitHub ID | 联系方式 | 组队意愿 | 赛道选择 | 备注 | 更新资料 |\n';
+  table += '| --- | --------- | --------- | -------- | -------- | -------- | ---- | -------- |\n';
 
   // Return placeholder if list is empty
   if (!issues || issues.length === 0) {
-    table += '| 待更新... | - | - | - | - | - | - |\n';
+    table += '| - | 待更新... | - | - | - | - | - | - |\n';
     return table;
   }
 
   // Iterate through issues and build rows
-  issues.forEach(issue => {
+  issues.forEach((issue, index) => {
     const body = issue.body || '';
 
     // Extract fields based on the "register.md" template structure
@@ -97,7 +97,7 @@ function generateRegistrationTable(issues) {
     const githubId = issue.author ? issue.author.login : 'unknown';
     const issueUrl = issue.url;
 
-    table += `| ${formatCol(name)} | [@${githubId}](https://github.com/${githubId}) | ${formatCol(contact)} | ${formatCol(wantsTeam)} | ${formatCol(track)} | ${formatCol(comment)} | [Link](${issueUrl}) |\n`;
+    table += `| ${index + 1} | ${formatCol(name)} | [@${githubId}](https://github.com/${githubId}) | ${formatCol(contact)} | ${formatCol(wantsTeam)} | ${formatCol(track)} | ${formatCol(comment)} | [编辑](${issueUrl}) |\n`;
   });
 
   return table;
@@ -111,28 +111,28 @@ function generateRegistrationTable(issues) {
  */
 function generateSubmissionTable(issues) {
   // Define Table Header
-  let table = '| 项目名称 | GitHub ID | 项目描述 | 项目链接 | 提交时间 |\n';
-  table += '| --------- | --------- | -------- | -------- | -------- |\n';
+  let table = '| # | 项目名称 | GitHub ID | 项目描述 | 项目链接 | 提交时间 |\n';
+  table += '| --- | --------- | --------- | -------- | -------- | -------- |\n';
 
   if (!issues || issues.length === 0) {
-    table += '| 待更新... | - | - | - | - |\n';
+    table += '| - | 待更新... | - | - | - | - |\n';
     return table;
   }
 
   // Iterate through issues and build rows
-  issues.forEach(issue => {
+  issues.forEach((issue, index) => {
     const body = issue.body || '';
 
     // Extract fields based on the "submission.md" template structure
-    const projectName = extractValue(body, /\*\*ProjectName.*?(:|：)/) || (issue.title || '');
-    const description = extractValue(body, /\*\*Brief description.*?(:|：)/); // Should match the one sentence description
-    const repoLink = extractValue(body, /\*\*Github Repo Link.*?(:|：)/);
+    const projectName = extractValue(body, /(?:\*\*)?ProjectName.*?(:|：)(?:\*\*)?/) || (issue.title || '');
+    const description = extractValue(body, /(?:\*\*)?Brief description.*?(:|：)(?:\*\*)?/); // Should match the one sentence description
+    const repoLink = extractValue(body, /(?:\*\*)?Github Repo Link.*?(:|：)(?:\*\*)?/);
 
     const githubId = issue.author ? issue.author.login : 'unknown';
     // Format date as YYYY-MM-DD
     const date = issue.createdAt ? issue.createdAt.split('T')[0] : '-';
 
-    table += `| ${formatCol(projectName)} | [@${githubId}](https://github.com/${githubId}) | ${formatCol(description)} | [Repo](${repoLink}) | ${date} |\n`;
+    table += `| ${index + 1} | ${formatCol(projectName)} | [@${githubId}](https://github.com/${githubId}) | ${formatCol(description)} | [Repo](${repoLink}) | ${date} |\n`;
   });
 
   return table;
@@ -206,17 +206,11 @@ try {
   fs.writeFileSync(contributingPath, contributingContent);
   console.log('CONTRIBUTING.md updated successfully.');
 
-  // Update README summary + tables (counts + link)
+  // Update README summary only (counts + link)
   if (fs.existsSync(readmePath)) {
     let mainReadme = fs.readFileSync(readmePath, 'utf8');
     const summaryContent = `报名人数：${registrations.length}｜提交人数：${submissions.length}（名单详见 \`docs/REGISTRATION.md\`）`;
     mainReadme = replaceSection(mainReadme, '<!-- Registration summary start -->', '<!-- Registration summary end -->', summaryContent);
-    if (regTable) {
-      mainReadme = replaceSection(mainReadme, '<!-- Registration start -->', '<!-- Registration end -->', regTable);
-    }
-    if (subTable) {
-      mainReadme = replaceSection(mainReadme, '<!-- Submission start -->', '<!-- Submission end -->', subTable);
-    }
     fs.writeFileSync(readmePath, mainReadme);
     console.log('README summary updated successfully.');
   }

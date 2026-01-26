@@ -20,7 +20,7 @@ function parseIssueFields(bodyString) {
         // 字段行必须包含中文方括号 [ ] 和冒号
         const hasChineseBracket = line.includes('[') && line.includes(']');
         const hasColon = line.includes(':') || line.includes('：');
-        const isPromptLine = line.startsWith('_') || line.startsWith('---');
+        const isPromptLine = (line.startsWith('_') && line.endsWith('_') && line.length > 2) || line.startsWith('---');
         const isFieldLine = hasChineseBracket && hasColon && !isPromptLine;
 
         if (isFieldLine) {
