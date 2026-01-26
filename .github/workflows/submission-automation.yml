@@ -123,8 +123,9 @@ jobs:
           git fetch origin main
           git merge origin/main --no-edit || true
 
-          # Only add submission files to avoid conflicts with registration workflow
+          # Add submission files and updated documentation
           git add submissions/
+          git add README.md
 
           # Check if there are changes to commit
           if git diff --staged --quiet; then
