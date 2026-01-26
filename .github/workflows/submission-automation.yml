@@ -76,6 +76,7 @@ jobs:
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_USER: ${{ github.event.issue.user.login }}
+          GITHUB_OUTPUT: ${{ github.output }}
 
       - name: Debug Output Values
         run: |

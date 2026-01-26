@@ -19,8 +19,23 @@ console.log('---');
 try {
     // 处理注册
     RegistrationProcessor.processRegistration(issueBody, githubUser);
+
+    // Set script_success to true when processing completes successfully
+    if (process.env.GITHUB_OUTPUT) {
+        const fs = require('fs');
+        fs.appendFileSync(process.env.GITHUB_OUTPUT, `script_success=true\n`);
+    }
+
     console.log('✅ 注册处理成功');
 } catch (error) {
+    // Set script_success to false when processing fails
+    if (process.env.GITHUB_OUTPUT) {
+        const fs = require('fs');
+        fs.appendFileSync(process.env.GITHUB_OUTPUT, `script_success=false\n`);
+        fs.appendFileSync(process.env.GITHUB_OUTPUT, `error_message<<EOF\n❌ **报名处理失败**\n\n${error.message}\nEOF\n`);
+    }
+
+    console.error('ERROR_MESSAGE:', `❌ **报名处理失败**\n\n${error.message}`);
     console.error('❌ 注册处理失败:', error.message);
     console.error('错误堆栈:', error.stack);
     process.exit(1);

@@ -36,18 +36,6 @@ class RegistrationProcessor {
         // 更新 README 表格
         this.updateRegistrationTable();
 
-        // 提交到 Git
-        const registrationFile = UserManager.getRegistrationFilePath(githubUser);
-        const readmePath = ReadmeManager.getReadmePath();
-        GitManager.commitWorkflow(
-            `Add registration for ${registrationData.name}`,
-            registrationFile,
-            readmePath
-        );
-
-        // 输出环境变量供后续步骤使用
-        this.outputEnvironmentVariables(registrationData);
-
         console.log('注册处理完成');
     }
 
@@ -163,18 +151,6 @@ ${FIELD_NAMES.REGISTRATION.COMMENT}: ${comment}
         });
 
         return table;
-    }
-
-    /**
-     * 输出环境变量
-     * @param {Object} registrationData - 注册数据
-     */
-    static outputEnvironmentVariables(registrationData) {
-        const outputFile = process.env.GITHUB_OUTPUT || '/dev/null';
-
-        Object.entries(registrationData).forEach(([key, value]) => {
-            FileManager.writeFileContent(outputFile, `${key}=${value}\n`);
-        });
     }
 }
 

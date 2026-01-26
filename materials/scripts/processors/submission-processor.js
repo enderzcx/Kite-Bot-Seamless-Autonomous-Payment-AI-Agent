@@ -35,15 +35,6 @@ class SubmissionProcessor {
         // 更新提交表格
         this.updateSubmissionTable();
 
-        // 提交到 Git
-        const submissionFile = this.getSubmissionFilePath(githubUser);
-        const readmePath = ReadmeManager.getReadmePath();
-        GitManager.commitWorkflow(
-            `Add submission for ${githubUser}@${submissionData.projectName}`,
-            submissionFile,
-            readmePath
-        );
-
         console.log('项目提交处理完成');
     }
 
