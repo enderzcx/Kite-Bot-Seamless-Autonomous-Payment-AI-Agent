@@ -5,10 +5,12 @@
 ## 01 | 报名教程视频（Registration Tutorial）
 
 [报名参赛 ➡️](<https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/new?template=register.md>)  
+
 [参赛项目提交 ➡️](<https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/new?template=submission.md>)
 
 **报名教程**  
-[](https://hackathon.draken-eth.cc.cd/demo.mp4)
+
+🎥 Full video: https://hackathon.draken-eth.cc.cd/demo.mp4
 
 ## **02 | 注意事项（Important Notes）**
 
