@@ -52,7 +52,7 @@
 
 | # | 姓名 | 个人介绍 | 联系方式 | 组队意愿 | 赛道选择 | 备注 | 更新资料 |
 | --- | --------- | -------- | -------- | -------- | -------- | ---- | -------- |
-| 1 | Draken | Web3 爱好者 | Telegram: @Draken_Zeng | 可能 | - | 无 | [编辑](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/77) |
+| 1 | 87 | 87 | 87 | 87 | - | 87 | [编辑](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/79) |
 
 <!-- Registration end -->
 
