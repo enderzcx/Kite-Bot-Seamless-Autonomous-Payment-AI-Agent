@@ -52,7 +52,7 @@
 
 | # | 姓名 | 个人介绍 | 联系方式 | 组队意愿 | 赛道选择 | 备注 | 更新资料 |
 | --- | --------- | -------- | -------- | -------- | -------- | ---- | -------- |
-| 1 | d | d | d | d | - | 修改 | [编辑](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/52) |
+| 1 | DDD | DDD | DDD | DDD | - | DDD | [编辑](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/54) |
 
 <!-- Registration end -->
 
@@ -62,7 +62,7 @@
 
 | # | 项目名称 | 赛道 | 项目描述 | 负责人 | 项目链接 | 操作 |
 | --- | --------- | --------- | -------- | -------- | -------- | -------- |
-| 1 | 1 | 1 | 1 | 1 | [🔗](1) | [编辑](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/53) |
+| - | 待更新... | - | - | - | - | - |
 
 <!-- Submission end -->
 
