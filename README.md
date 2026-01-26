@@ -114,7 +114,10 @@
 
 **📝更多信息**
 
-- 技术文档：[**SpoonOS · 最低技术使用要求（Hackathon）**](https://docs.google.com/document/d/1v9tdC_0CABmgsfznJQa_qkWxyYcgW3e5RI9n5gkAEWk/edit?usp=sharing)
+- 技术文档：[**SpoonOS · 最低技术使用要求（Hackathon）**](https://www.notion.so/SpoonOS-Hackathon-2f1bbd63be8780db8c59c20349715dd5?pvs=21)
+- Workshop 回放：[**Rick 老师 SpoonOS 实战教学**](https://www.notion.so/ethpanda/SpoonOS-Hackathon-2f1bbd63be8780db8c59c20349715dd5?source=copy_link)
+- AI及其基础概念：[**SpoonOS框架**](https://www.youtube.com/watch?v=1NDNoiUUyRI)
+- 想法快速落地：[SDK](https://www.npmjs.com/package/@ddcmarket/sdk)
 
 ---
 ### **3.**  [**OGBC**](https://x.com/ogbcgroup) × [**ScalingX**](https://x.com/Scaling_X) - **预测市场 (Prediction Market Track)**
