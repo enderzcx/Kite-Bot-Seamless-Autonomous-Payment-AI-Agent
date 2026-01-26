@@ -35,6 +35,9 @@ class SubmissionProcessor {
         // 更新提交表格
         this.updateSubmissionTable();
 
+        // 更新 README 统计信息
+        ReadmeManager.updateSummary();
+
         console.log('项目提交处理完成');
     }
 

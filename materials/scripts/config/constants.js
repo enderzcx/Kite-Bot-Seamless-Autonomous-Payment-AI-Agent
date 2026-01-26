@@ -64,6 +64,10 @@ const README_MARKERS = {
     SUBMISSION: {
         START: '<!-- Submission start -->',
         END: '<!-- Submission end -->'
+    },
+    SUMMARY: {
+        START: '<!-- Registration summary start -->',
+        END: '<!-- Registration summary end -->'
     }
 };
 

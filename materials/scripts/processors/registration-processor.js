@@ -36,6 +36,9 @@ class RegistrationProcessor {
         // 更新 README 表格
         this.updateRegistrationTable();
 
+        // 更新 README 统计信息
+        ReadmeManager.updateSummary();
+
         console.log('注册处理完成');
     }
 
