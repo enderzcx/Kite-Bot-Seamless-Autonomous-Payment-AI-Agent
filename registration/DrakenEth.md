@@ -1,7 +1,7 @@
 # DrakenEth
 
-Name: 87
-Introduction: 87
-ContactMethod: 87
-WantsTeam: 87
-Comment: 87
+Name: DrakenEth
+Introduction: DrakenEth
+ContactMethod: DrakenEth
+WantsTeam: DrakenEth
+Comment: DrakenEth
