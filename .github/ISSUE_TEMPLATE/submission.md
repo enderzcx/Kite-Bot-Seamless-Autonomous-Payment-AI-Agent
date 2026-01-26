@@ -1,7 +1,7 @@
 ---
 name: 🚀 提交项目 (Submission)
 about: 提交你的黑客松 Demo 项目
-title: "[提交] 项目名称"
+title: "Submission: 项目名称"
 labels: "submission"
 assignees: ""
 ---
