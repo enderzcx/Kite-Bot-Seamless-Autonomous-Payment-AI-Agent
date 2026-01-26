@@ -52,8 +52,7 @@
 
 | # | 姓名 | 个人介绍 | 联系方式 | 组队意愿 | 赛道选择 | 备注 | 更新资料 |
 | --- | --------- | -------- | -------- | -------- | -------- | ---- | -------- |
-| 1 | Draken | Draken | Draken | Draken | - | Draken | [编辑](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/56) |
-| 2 | DDD | DDD | DDD | DDD | - | 修改 | [编辑](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/54) |
+| 1 | DDD | DDD | DDD | DDD | - | DDD | [编辑](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/58) |
 
 <!-- Registration end -->
 
@@ -63,7 +62,7 @@
 
 | # | 项目名称 | 赛道 | 项目描述 | 负责人 | 项目链接 | 操作 |
 | --- | --------- | --------- | -------- | -------- | -------- | -------- |
-| 1 | DDD | DDD | DDD | DDD | [🔗](DDD) | [编辑](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/55) |
+| - | 待更新... | - | - | - | - | - |
 
 <!-- Submission end -->
 
