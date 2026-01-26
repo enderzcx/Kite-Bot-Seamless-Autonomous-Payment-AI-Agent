@@ -191,11 +191,17 @@ try {
   fs.writeFileSync(registrationDocPath, readmeContent);
   console.log('Registration doc updated successfully.');
 
-  // Update README summary (counts + link)
+  // Update README summary + tables (counts + link)
   if (fs.existsSync(readmePath)) {
     let mainReadme = fs.readFileSync(readmePath, 'utf8');
     const summaryContent = `报名人数：${registrations.length}｜提交人数：${submissions.length}（名单详见 \`docs/REGISTRATION.md\`）`;
     mainReadme = replaceSection(mainReadme, '<!-- Registration summary start -->', '<!-- Registration summary end -->', summaryContent);
+    if (regTable) {
+      mainReadme = replaceSection(mainReadme, '<!-- Registration start -->', '<!-- Registration end -->', regTable);
+    }
+    if (subTable) {
+      mainReadme = replaceSection(mainReadme, '<!-- Submission start -->', '<!-- Submission end -->', subTable);
+    }
     fs.writeFileSync(readmePath, mainReadme);
     console.log('README summary updated successfully.');
   }
