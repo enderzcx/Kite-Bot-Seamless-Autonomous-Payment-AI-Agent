@@ -1,7 +1,7 @@
 # DrakenZeng
 
-Name: tester
-Introduction: tester
-ContactMethod: tester
-WantsTeam: tester
-Comment: tester
+Name: 全名
+Introduction: 全名
+ContactMethod: 全名
+WantsTeam: 全名
+Comment: 全名
