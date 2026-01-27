@@ -29,19 +29,23 @@
 
 这里不比通宵、不拼履历、不设隐形门槛——我们关心的，从来不是你写了多少行代码，而是你的想法，是否真的能点燃火花。
 
+以下活动链接入口都会在活动群及时预告，如果此界面无法入会请加入活动群~
+
 | 活动 (Event) | 时间 (Time UTC+8) | 形式 (Format) | 相关链接 (Link) |
 | --- | --- | --- | --- |
-| 💻 Co-building (开发期) | 1月27日 - 1月30/31日 | 📍 自由开发 | Hacking Time! |
-| 🗓 Open Day (开幕) | 1月28日 19:00-20:30 | 📍 Zoom | [ZOOM 链接](https://us06web.zoom.us/j/82510601772?pwd=2MtYQkfkFOIUsz98wb4lrzcdMQO1iB.1) |
-| 🛠 Tech Workshop | 1月29日 | 📍 Zoom | Zoom 链接（待补充） |
-| 💬 AMA / Workshop | 1月28/30日 | 📍 Zoom / Twitter | 链接（待补充） |
+| 🗓 Open Day (开幕) | 1月28日 19:00-20:30 | 📍 Zoom | [Zoom 链接](https://us06web.zoom.us/j/82510601772?pwd=2MtYQkfkFOIUsz98wb4lrzcdMQO1iB.1)<br>X 直播链接（待更新） |
+| 💻 Co-building (开发期) | 1月29日 19:00-20:00<br>1月30日 14:00-15:00<br>1月31日 18:30-19:30 | 📍 Zoom<br>*Hacking Time!*<br>📍 Zoom | [Zoom 链接](https://us06web.zoom.us/j/84019245134?pwd=IgtZadqIZLuzHtPCgNphzcSbu8nigS.1)<br>[Zoom 链接](https://us06web.zoom.us/j/88224933555?pwd=qraz4AfI4Xb86JDyTjWviab2bKuBpm.1)<br>[Zoom 链接](https://us06web.zoom.us/j/82971130369?pwd=ii6CAY79mibBunwAz3lIw4ar8Kx37m.1) |
+| 🛠 Tech Workshop | 1月29日 20:30-22:00 | 📍 Zoom | [Zoom 链接](https://us06web.zoom.us/j/84292630277?pwd=I2hqeQAvFnOCXaAKY1tLxmd9aeWR1a.1)<br>X 直播链接（待更新） |
+| 💬 AMA | 1月30日 18:30-19:30 | 📍 Twitter Space | [Space 链接](https://x.com/i/broadcasts/1zqKVdPPLOlJB) |
 | 📥 Demo 提交截止 | 2月1日 中午 12:00 | 📍 GitHub Issue | [👉 点击此处提交 Demo](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/new?template=submission.md) |
-| 🏁 Demo Day (路演) | 2月1日 19:00-21:00 | 📍 Zoom | Zoom 链接（待补充） |
-| 🏆 获奖公示 (Awards) | 2月4日 | 📍 社区公告 | X 链接（待补充） |
+| 🏁 Demo Day (路演) | 2月1日 19:00-22:00 | 📍 Zoom | [Zoom 链接](https://us06web.zoom.us/j/86782028304?pwd=wfBDRXFhKM5R9ijUMN2QLWXwk6wTxq.1)<br>X 直播链接（待更新） |
+| 🏆 获奖公示 (Awards) | 2月4日 | 📍 社区公告 | X 链接（待更新） |
 
-**报名入口：** [点击报名](https://github.com/CasualHackathon/SPARK-AI-Hackathon?tab=contributing-ov-file)  
+**报名入口：** [点击报名](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/new?template=register.md)  
 
-**Demo 提交入口：** [提交 Demo](https://github.com/CasualHackathon/SPARK-AI-Hackathon?tab=contributing-ov-file)
+**Demo 提交入口：** [提交 Demo](https://github.com/CasualHackathon/SPARK-AI-Hackathon/issues/new?template=submission.md)
+
+**报名教程说明：** [查看报名教程](CONTRIBUTING.md#01--报名教程视频registration-tutorial)
 
 
 
