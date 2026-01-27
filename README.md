@@ -64,10 +64,6 @@
 
 **赛事交流群：（如果社群已满 200 人，需添加运营人员微信邀请入群： clynn2024）**
 
-<p align="center">
-    <img src="./materials/images/QR code.png" alt="QR Code" width="200" />
-  </p>
-
 ## **01 | 参赛规则与激励（Participation Rules & Incentives）**
 
 ### **👥 组队建议**
