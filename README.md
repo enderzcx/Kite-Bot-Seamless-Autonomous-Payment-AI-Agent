@@ -119,7 +119,7 @@
 **📝更多信息**
 
 * 技术文档：[SpoonOS · 最低技术使用要求（Hackathon）](https://docs.google.com/document/d/1v9tdC_0CABmgsfznJQa_qkWxyYcgW3e5RI9n5gkAEWk/edit?usp=sharing)
-* Workshop 回放：[Rick 老师教学 AI 及其基础概念**（ **SpoonOS框架** ）](https://www.youtube.com/watch?v=1NDNoiUUyRI)
+* Workshop 回放：[Rick 老师教学 AI 及其基础概念（ SpoonOS框架 ）](https://www.youtube.com/watch?v=1NDNoiUUyRI)
 * [SpoonOS SDK](https://xspoonai.github.io/docs/getting-started/installation/)
 
 ---
