@@ -45,7 +45,7 @@
 **报名/提交概览：**
 
 <!-- Registration summary start -->
-报名人数：137｜提交项目：9（名单详见 `CONTRIBUTING.md`）
+报名人数：137｜已提交项目数量：9（名单详见 `CONTRIBUTING.md`）
 <!-- Registration summary end -->
 
 
