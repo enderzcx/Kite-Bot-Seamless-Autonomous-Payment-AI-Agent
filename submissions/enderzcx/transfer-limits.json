@@ -1,0 +1,19 @@
+{
+  "limits": {
+    "0x4c8a301d3852118a544739ee45957e8737e617b8": {
+      "dailyCount": 1,
+      "dailyValue": "60000000000000000",
+      "lastReset": 1769788800000
+    }
+  },
+  "history": [
+    {
+      "address": "0x4C8A301d3852118A544739Ee45957e8737e617b8",
+      "timestamp": 1769849639098,
+      "amount": "60000000000000000",
+      "txHash": "0xb0c18f94dc749faaba394ba2f2614c8d25944111085bfeefc8412d9706ac6884",
+      "to": "0x6D705b93F0Da7DC26e46cB39Decc3baA4fb4dd29"
+    }
+  ],
+  "lastUpdated": 1769849639098
+}
