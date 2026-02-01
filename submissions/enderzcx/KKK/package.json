@@ -1,0 +1,22 @@
+{
+  "name": "gokite-aa-sdk",
+  "version": "1.0.0",
+  "description": "Gokite Account Abstraction SDK for ERC-4337 transactions on Kite Chain",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "account-abstraction",
+    "erc4337",
+    "kite",
+    "blockchain",
+    "ethereum"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.9.0",
+    "dotenv": "^16.4.0"
+  }
+}
