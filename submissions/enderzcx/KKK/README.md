@@ -2,7 +2,7 @@
 
 这是一个面向 Kite Testnet 的前端 Demo，用于展示 **AI Agent 自动支付 + 金库额度规则 + 交易记录** 的完整流程。
 
-## 主要功能
+## 主要功能(务必在生成AA地址和金库地址后向其转入Kite测试网USDThttps://faucet.gokite.ai/)
 
 - **登录页**：一键进入系统（提示分配专属 KITE BOT）
 - **需求下单**：输入需求 → 自动触发 USDT 转账 → 返回交易哈希/物流信息
@@ -109,3 +109,4 @@ A: 确认后端已启动，并在前端访问 `/api/records`。
 ---
 
 KITE BOT - 无感支付 AI Agent Demo
+
