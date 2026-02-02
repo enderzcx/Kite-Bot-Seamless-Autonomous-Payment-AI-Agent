@@ -2,7 +2,38 @@
 
 这是一个面向 Kite Testnet 的前端 Demo，用于展示 **AI Agent 自动支付 + 金库额度规则 + 交易记录** 的完整流程。
 Demo 视频: https://www.bilibili.com/video/BV1bzFPzGEkH/
+请参考官方文档生成AA地址https://docs.gokite.ai/kite-chain/account-abstraction-sdk
+初始化 SDK
 
+```
+import { GokiteAASDK } from 'gokite-aa-sdk';
+
+const sdk = new GokiteAASDK(
+  'kite_testnet',                                  // Network name
+  'https://rpc-testnet.gokite.ai',                // Kite RPC URL
+  'https://bundler-service.staging.gokite.ai/rpc/' // Bundler RPC
+);
+```
+获取账户抽象钱包地址
+
+```
+const signer = '0xYourEOAAddress';
+
+const aaWalletAddress = sdk.getAccountAddress(signer);
+
+console.log('AA Wallet:', aaWalletAddress);
+```
+验证
+signFunction使用您首选的钱包/认证 SDK进行实现：
+
+
+```
+// example with ethers: 
+const signFunction = async (userOpHash: string): Promise<string> => {
+  const signer = new ethers.Wallet(process.env.PRIVATE_KEY!);
+  return signer.signMessage(ethers.getBytes(userOpHash));
+};
+```
 ## 主要功能(务必在生成AA地址和金库地址后向其转入Kite测试网USDThttps://faucet.gokite.ai/)
 
 - **登录页**： 前端入口：http://localhost:5173/ 一键进入系统（提示分配专属 KITE BOT）
@@ -110,6 +141,7 @@ A: 确认后端已启动，并在前端访问 `/api/records`。
 ---
 
 KITE BOT - 无感支付 AI Agent Demo
+
 
 
 
