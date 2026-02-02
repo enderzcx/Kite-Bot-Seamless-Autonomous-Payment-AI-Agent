@@ -2,7 +2,7 @@
 
 这是一个面向 Kite Testnet 的前端 Demo，用于展示 **AI Agent 自动支付 + 金库额度规则 + 交易记录** 的完整流程。
 Demo 视频: https://www.bilibili.com/video/BV1bzFPzGEkH/
-请参考官方文档生成AA地址https://docs.gokite.ai/kite-chain/account-abstraction-sdk
+请参考官方文档生成AA地址https://docs.gokite.ai/kite-chain/account-abstraction-sdk ：
 初始化 SDK
 
 ```
@@ -141,6 +141,7 @@ A: 确认后端已启动，并在前端访问 `/api/records`。
 ---
 
 KITE BOT - 无感支付 AI Agent Demo
+
 
 
 
